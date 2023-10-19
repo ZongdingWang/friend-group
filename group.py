@@ -8,8 +8,8 @@ my_group = {'Jill':
              'connection':
              {'partner':'John',
               'friend':['Zalika'],
-              'landlord': None,
-              'cousin':None,     
+            #   'landlord': None,
+            #   'cousin':None,     
              }
             },
             'John':
@@ -18,7 +18,7 @@ my_group = {'Jill':
              'connection':
              {'partner':'Jill',
               'friend':[],
-              'landlord': None,
+            #   'landlord': None,
               'cousin':'Nash',     
              }
             },
@@ -26,20 +26,20 @@ my_group = {'Jill':
             {'age':28,
              'job':'artist',
              'connection':
-             {'partner': None,
+             {#'partner': None,
               'friend':['Jill'],
               'landlord': 'Zalika',
-              'cousin':None,     
+            #   'cousin':None,     
              }
             },
             'Nash':
             {'age':34,
              'job':'Chef',
              'connection':
-             {'partner':None,
+             {#'partner':None,
               'friend':[],
-              'landlord': None,
-              'cousin':None,     
+            #   'landlord': None,
+            #   'cousin':None,     
              }
             },
            }
